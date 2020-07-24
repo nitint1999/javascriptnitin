@@ -1,34 +1,19 @@
-<!-- Question 3:
-Write a program to take marks as input from the user and grade him accordingly. Use Conditional
-statements. Also the same code using switch or ternary
-input: 50
-Output : Marks are 50 and grade is B -->
-
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>ASSIGNMENT3, Date: 16 July 2020</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3-assignment 2 </title>
 </head>
-
-<body style="background-color: coral;">
-
-    <h2><MARK>ASSIGNMENT 3</MARK> </h2>
-    <br>
-    <br>
-    <div class="container"
-        style='max-width: 90%; margin: auto; background-color: rgba(95, 177, 126, 0.705); font-family: Lucida Sans; color:  lightgoldenrodyellow;'>
-        <h2>Press SHIFT + CTRL + J and navigate to console and then messages.</h2>
-        <h3>Program to take marks as input from the user and grade accordingly.</h3>
-        <h4> 1. Used Conditional statements</h4>
-        <h4> 2. Used Ternary Operators</h4>
-        <h4> 3. Used switch cases</h4>
-    </div>
-
-    <script src="scripts/three.js">
+<body>
+    <h1><mark>write a program which will take OS name and version from the user separated by a space. Then log the OS name and version on the console</mark></h1>
+    <script>
+        console.log("OS name and version");
+        
+        let input = prompt("enter the OS name and version :");
+        let os = input.split(' ');
+         
+         console.log(`The OS name is ${os[0]} and version is ${os[1]}`);
     </script>
-
 </body>
-
 </html>
